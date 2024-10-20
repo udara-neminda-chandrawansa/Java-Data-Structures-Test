@@ -10,8 +10,12 @@ public class DataStructuresTest {
 
     public static void main(String[] args) {
         AL.add("Array List Test");
-        HM.put("Hash Map Test",0);
+        HM.put("User ID",1101011);
         LL.push("Linked List Test");
+
+        System.out.println(AL.get(0));
+        System.out.println(HM.get("User ID"));
+        System.out.println(LL.get(0));
     }
     
 }
